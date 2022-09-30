@@ -142,12 +142,12 @@ nav a:hover {
 first div in the grid  and place it in the grid. */
 .container div:first-child {
     grid-column: 1 / -1;
+    background-image: url("/images/header.jpg");
     background-attachment: fixed; /* Parallax effect */     
     background-position: center;  /* Parallax effect */
     background-repeat: no-repeat; /* Parallax effect */
     background-size: cover;       /* Parallax effect */
     height: 400px;                /* Parallax effect */
-    background-image: url("/images/header.jpg");
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
